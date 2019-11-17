@@ -36,6 +36,6 @@ passou(joao, sociedade).
 passou(pedro, sociedade).
 
 passouf(P1, P2) :-
-			passou(N1, P1), passou(N1, P2), write(N1), nl, fail. 
+		passou(N1, P1), passou(N1, P2), write(N1), nl, fail. 
 
 ?- passouf(programacao1, algebra)
